@@ -1,0 +1,57 @@
+body{
+    background: #bdbdbd;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttons{
+display: grid;
+grid-template-columns: 70px 70px 70px 70px;
+gap: 10px;
+padding-top: 10px;
+
+
+}
+button{
+    font-size: 25px;
+    width: 70px;
+    height: auto;
+    border-radius: 200px;
+    
+
+}
+.txt{
+    width: 300px; 
+    height: 50px;
+    border-radius: 20px;
+    font-size: 25px;
+    direction: ltr;
+    text-align: right;
+}
+.ob{
+    background-color: #4d95d4;
+    
+}
+.on{
+    background-color:#bfcedb;
+}
+.tot{
+    background-color: #033057 ;
+    color: white;
+}
+.main{
+    background-color: #f2f2f2;
+    width: 300px;
+    height: 300px;
+    
+    padding: 80px 70px 50px 70px;
+    border-radius: 300px;
+    border-style: solid ridge;
+    
+}
+button:hover {
+    border-color: rgb(245, 243, 243);
+
+}
